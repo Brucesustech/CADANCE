@@ -1,0 +1,15 @@
+2026-04-15 00:03:26,546 - INFO: Namespace(P=0.4, dataset='Aminer', device=device(type='cuda', index=1), device_id='1', dropout=0.0, experiment_name='nc', fmask=1, grad_clip=5.0, hid_dim=64, input_dim=128, intervention_times=10, length=17, lin_bias=0, log_dir='logs/new/', log_interval=20, lr=0.002, max_epoch=1000, max_time_len=128, min_epoch=200, nc_layers=2, norm=1, num_classes=20, num_nodes=43141, patience=50, residual=1, sampling_times=1, seed=42, shift=0, skip=0, spatial_drop=0.0, split=0, testlength=3, use_cfg=1, vallength=3, warm_epoch=20, weight1=1.0, weight_decay=0.005)
+2026-04-15 00:07:32,236 - INFO: Last_Train: Epoch:201, Train ACC:0.7002, Val ACC: 0.5194, Test ACC: 0.5053
+2026-04-15 00:07:32,236 - INFO: Best_Val: Epoch:150, Train ACC:0.6862, Val ACC: 0.5342, Test ACC: 0.5119
+2026-04-15 00:07:32,236 - INFO: Every Test: Epoch:150, Test15:0.5218, Test16: 0.5495, Test17: 0.4644
+2026-04-15 00:07:32,236 - INFO: running time per every epoch: 1.6362
+2026-04-15 00:11:45,177 - INFO: Last_Train: Epoch:214, Train ACC:0.7223, Val ACC: 0.5145, Test ACC: 0.5059
+2026-04-15 00:11:45,177 - INFO: Best_Val: Epoch:163, Train ACC:0.6926, Val ACC: 0.5323, Test ACC: 0.5216
+2026-04-15 00:11:45,177 - INFO: Every Test: Epoch:163, Test15:0.5308, Test16: 0.5556, Test17: 0.4786
+2026-04-15 00:11:45,177 - INFO: running time per every epoch: 1.5516
+2026-04-15 00:15:31,775 - INFO: Last_Train: Epoch:201, Train ACC:0.7288, Val ACC: 0.5197, Test ACC: 0.5118
+2026-04-15 00:15:31,776 - INFO: Best_Val: Epoch:126, Train ACC:0.6783, Val ACC: 0.5312, Test ACC: 0.5163
+2026-04-15 00:15:31,776 - INFO: Every Test: Epoch:126, Test15:0.5285, Test16: 0.5493, Test17: 0.4711
+2026-04-15 00:15:31,776 - INFO: running time per every epoch: 1.7982
+2026-04-15 00:15:31,776 - INFO: (Mean Results) Train:68.57±0.59, Val: 53.26±0.12, Test: 51.66±0.40
+2026-04-15 00:15:31,776 - INFO: (Every Results) Train:52.70±0.38, Val: 55.14±0.29, Test: 47.13±0.58

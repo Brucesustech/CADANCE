@@ -1,0 +1,15 @@
+2026-04-14 17:27:49,537 - INFO: Namespace(P=0.6, dataset='synthetic', device=device(type='cuda', index=2), device_id='2', dropout=0.1, experiment_name='lp', fmask=1, grad_clip=5.0, hid_dim=32, input_dim=64, intervention_times=10, length=16, lin_bias=0, log_dir='logs/new/', log_interval=20, lr=0.003, max_epoch=1000, max_time_len=128, min_epoch=100, nc_layers=2, norm=1, num_classes=-1, num_nodes=23035, patience=1, residual=1, sampling_times=1, seed=42, shift=0, skip=0, spatial_drop=0.0, split=0, testlength=5, use_cfg=1, vallength=1, warm_epoch=20, weight1=0.5, weight_decay=0.02)
+2026-04-14 17:30:15,286 - INFO: (IID) Last_Train: Epoch:103, Train AUC:0.9651, Val AUC: 0.9572, Test AUC: 0.9305
+2026-04-14 17:30:15,286 - INFO: (IID) Best_Train: Epoch:103, Train AUC:0.9646, Val AUC: 0.9577, Test AUC: 0.9348
+2026-04-14 17:30:15,286 - INFO: (OOD) Early_Test: Epoch:103, Train AUC:0.9646, Val AUC: 0.9577, Test AUC: 0.9348
+2026-04-14 17:30:15,286 - INFO: running time per every epoch: 1.4124
+2026-04-14 17:32:44,927 - INFO: (IID) Last_Train: Epoch:111, Train AUC:0.9667, Val AUC: 0.9584, Test AUC: 0.9292
+2026-04-14 17:32:44,928 - INFO: (IID) Best_Train: Epoch:111, Train AUC:0.9664, Val AUC: 0.9587, Test AUC: 0.9315
+2026-04-14 17:32:44,928 - INFO: (OOD) Early_Test: Epoch:111, Train AUC:0.9664, Val AUC: 0.9587, Test AUC: 0.9315
+2026-04-14 17:32:44,928 - INFO: running time per every epoch: 1.3476
+2026-04-14 17:35:08,866 - INFO: (IID) Last_Train: Epoch:107, Train AUC:0.9658, Val AUC: 0.9575, Test AUC: 0.9285
+2026-04-14 17:35:08,866 - INFO: (IID) Best_Train: Epoch:107, Train AUC:0.9655, Val AUC: 0.9577, Test AUC: 0.9310
+2026-04-14 17:35:08,866 - INFO: (OOD) Early_Test: Epoch:107, Train AUC:0.9655, Val AUC: 0.9577, Test AUC: 0.9310
+2026-04-14 17:35:08,866 - INFO: running time per every epoch: 1.3447
+2026-04-14 17:35:08,866 - INFO: (IID Mean Results) Train:96.55±0.07, Val: 95.80±0.04, Test: 93.24±0.17
+2026-04-14 17:35:08,866 - INFO: (OOD Mean Results) Train:96.55±0.07, Val: 95.80±0.04, Test: 93.24±0.17
